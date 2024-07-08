@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitive Programming Ratings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Competitive Programming Ratings</h1>
+            <p>Track your competitive programming ratings across platforms.</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <label for="codeforcesUsername">Codeforces Username</label>
+                <input type="text" id="codeforcesUsername" placeholder="Enter Codeforces Username">
+            </div>
+            <div class="form-container">
+                <label for="leetcodeUsername">LeetCode Username</label>
+                <input type="text" id="leetcodeUsername" placeholder="Enter LeetCode Username">
+            </div>
+            <div class="form-container">
+                <label for="gfgUsername">GeeksforGeeks Username</label>
+                <input type="text" id="gfgUsername" placeholder="Enter GeeksforGeeks Username">
+            </div>
+            <button onclick="getAccountRatings()">Get Ratings</button>
+            <div id="ratings" class="ratings"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Competitive Programming Ratings. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
